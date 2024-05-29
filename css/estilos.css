@@ -1,0 +1,424 @@
+body {
+border: 0px;
+margin: 0px;
+padding: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+background-color: #d8dce1;
+}
+
+#logo {
+    height: 170px;
+    margin: 0px;
+}
+
+header {
+    background-color: #c42f3a;
+    margin: 0px;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+header nav a {
+    margin-left: 40px;
+    font-family: 'neuropolitical rg';
+    text-decoration: none;
+    color: black;
+
+}
+
+@font-face {
+    font-family: 'neuropolitical rg';
+    src: url('../fontes/neuropolitical\ rg.ttf') format('truetype');
+}
+
+header nav a:hover {
+    color: #ced4da;
+}
+#imagem-home {
+    width: 100%;
+    padding: 30px 0px;
+    background-image: url('../img/mercados-pelo-mundo.jpg');
+    background-size: cover;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#container {
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1700px;
+    margin: 0px auto;
+}
+
+#container p {
+    color: #555;
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+
+.servicos {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+.servicos img {
+    height: 180px;
+}
+
+.servicos h2, p, a {
+    padding: 0px 20px;
+}
+
+.servicos h2 {
+    background-color: #ad3d45;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.servicos a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ad3d45;
+}
+
+.servicos:hover a {
+    color: #c42f3a;
+}
+
+.servicos:hover h2 {
+    background-color: #c42f3a;
+}
+
+#segunda-fileira {
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1900px;
+    margin: 0px auto;
+    padding: 20px;
+    }
+    
+#segunda-fileira p {
+    color: #555;
+    
+}
+
+#produtos2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.servicos2 {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+.servicos2 img {
+    height: 180px;
+}
+
+.servicos2 h2, p, a {
+    padding: 0px 20px;
+}
+
+.servicos2 h2 {
+    background-color: #ad3d45;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.servicos2 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ad3d45;
+}
+
+.servicos2:hover a {
+    color: #c42f3a;
+}
+
+.servicos2:hover h2 {
+    background-color: #c42f3a;
+}
+
+.servicos5 {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+.servicos5 img {
+    height: 180px;
+}
+
+.servicos5 h2, p, a {
+    padding: 0px 20px;
+}
+
+.servicos5 h2 {
+    background-color: #ad3d45;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.servicos5 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ad3d45;
+}
+
+.servicos5:hover a {
+    color: #c42f3a;
+}
+
+.servicos5:hover h2 {
+    background-color: #c42f3a;
+}
+
+.servicos4 {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.servicos4 img {
+    height: 180px;
+}
+
+.servicos4 h2, p, a {
+    padding: 0px 20px;
+}
+
+.servicos4 h2 {
+    background-color: #ad3d45;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.servicos4 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ad3d45;
+}
+
+.servicos4:hover a {
+    color: #c42f3a;
+}
+
+.servicos4:hover h2 {
+    background-color: #c42f3a;
+}
+
+#terceira-fileira {
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1900px;
+    margin: 0px auto;
+    padding: 20px;
+    margin-top: 70px;
+    }
+    
+#terceira-fileira p {
+    color: #555;
+}
+
+footer {
+    background-color: #c42f3a;
+    margin-right: 0px;
+}
+
+footer span {
+    color: white;
+}
+
+footer br {
+    color: white;
+}
+header {
+    background-color: #c42f3a;
+    display: flex;
+    
+    
+ }
+ 
+ #logo {
+     width: 150px;
+ }
+ 
+ header h1 {
+     margin-left: 50px;
+     color: white;
+     font-size: 50px;
+     text-shadow: 1px 1px 2px black;
+ }
+ 
+ #imagem-fundo-bebidas {
+     width: 100%;
+     height: 100px;
+     background-image: url('../Img/Bebidas.jpg');
+     opacity: 0.9;
+ 
+ }
+
+ #conteudo-empresa {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    
+ }
+
+ .produtos {
+     
+     border: 1px solid black;
+     border-radius: 5px;
+     margin: 0px 15px;
+     margin-top: 35px;
+     width: 15%;
+     
+ }
+ 
+ .produtos img {
+     width: 100%;
+ }
+
+
+
+ .produtos button {
+     margin: 25px 15px 0px 15px;
+     padding: 8px 40px;
+     border-radius: 10px;
+     border: 0px ;
+     font-size: 18px;
+ }
+ 
+ .produtos button:hover {
+     background-color: #c42f3a;
+     color: white;
+ }
+ 
+ /* Carnes.HTML */ 
+ 
+ #imagem-fundo-carnes {
+     width: 100%;
+     height: 200px;
+     background-image: url('../img-carnes/fundo-carne.jpg');
+     opacity: 0.9;
+ }
+ 
+ 
+ /* Horti.HTML */
+ 
+ #imagem-fundo-horti {
+     width: 100%;
+     height: 100px;
+     background-image: url('../img-horti/logo.webp');
+     opacity: 0.9;
+ }
+
+ /* Contato.HTML */ 
+
+ 
+ #contato-sup {
+    display: flex;
+    padding: 45px 0px 45px 0px;
+    
+}
+
+#dados {
+ width: 50%;
+ margin-right: 30px;
+}
+
+#mapa {
+ width: 50%;
+  margin-left: 30px;
+}
+
+#frm-contato {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 30px;
+
+}
+
+textarea {
+    resize: none;
+}
+
+#frm-contato input, textarea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin: 5px 0px;
+    border-radius: 1px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+button {
+    margin: 25px 15px 0px 15px;
+    padding: 8px 40px;
+    border-radius: 10px;
+    border: 0px ;
+    font-size: 18px;
+}
+
+#botao-enviar {
+    background-color: #c42f3a;
+    color: white;
+}
+
+#botao-enviar:hover {
+    background-color: green;
+    color: white;
+}
+
+#botao-apagar {
+    background-color: #c4c4c4;
+    color:#555;
+}
+
+#botao-apagar:hover {
+    background-color: red;
+    color:white;
+}
+
+#frame-mapa {
+    border-radius: 10px;
+}
+
+#dados p,h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+
