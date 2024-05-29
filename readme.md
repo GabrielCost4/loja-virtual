@@ -5,4 +5,4 @@ eficaz e rápida. Comprando os produtos do conforto da sua casa e recebendo-os o
 
 ## Prints do site
 
-![Print de tela inicial]()
+![Print de tela inicial](https://github.com/GabrielCost4/loja-virtual/blob/master/fotos/foto2.png)
